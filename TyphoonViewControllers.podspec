@@ -9,8 +9,10 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '5.0'
 
-  s.source_files = 'Classes'
   s.requires_arc = true
+  
+  s.source_files = 'Classes'
+  s.resources = 'Assets'
   s.dependency 'Typhoon'
   s.dependency 'ProductCore'
 
