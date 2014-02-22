@@ -22,7 +22,6 @@
         [initializer injectParameterAtIndex:1 withObject:nil];
     } properties:^(TyphoonDefinition *definition){
         [definition injectProperty:@selector(title) withValueAsText:@"FirstViewController"];
-        NSLog(@"%@",definition.factory);
         [definition setAfterPropertyInjection:@selector(colorMe)];
     }];
 }
