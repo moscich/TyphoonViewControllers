@@ -8,4 +8,9 @@
 
 
 @interface FirstViewController : UIViewController
+
+@property (nonatomic, weak) IBOutlet UILabel *normalLabel;
+@property (nonatomic, weak) IBOutlet UILabel *differentLabel;
+@property (nonatomic, weak) IBOutlet UIImageView *someImageView;
+
 @end
